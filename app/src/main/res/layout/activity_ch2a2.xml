@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ch2a2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.maitrik.champad.ch2a2">
+
+    <Button
+        android:text="GO TO ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/next3" />
+
+    <Button
+        android:text="check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/next3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/check2" />
+
+    <ImageView
+        android:src="@drawable/ch2a2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="6dp" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="62dp"
+        android:layout_marginTop="128dp" />
+
+    <TextView
+        android:text=""
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:id="@+id/textView11"
+        android:layout_marginTop="171dp"
+        android:layout_alignTop="@+id/editText8"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text=""
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/textView12"
+        android:layout_alignTop="@+id/editText8"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_marginTop="7dp" />
+</RelativeLayout>

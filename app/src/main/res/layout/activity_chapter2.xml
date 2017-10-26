@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chapter2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.maitrik.champad.chapter2">
+
+
+    <Button
+        android:text="LEVEL 1"
+        android:background="#F48FB1"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/level21" />
+    <Button
+        android:text="LEVEL 2"
+        android:background="#EC407A"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/level22"
+        />
+    <Button
+        android:text="LEVEL 3"
+        android:background="#D81B60"
+        android:textSize="30sp"
+        android:id="@+id/level23"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

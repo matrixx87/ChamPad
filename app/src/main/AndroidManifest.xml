@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.maitrik.champad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Homepage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainMenu" />
+        <activity android:name=".chapter1" />
+        <activity android:name=".chapter2" />
+        <activity android:name=".chapter3" />
+        <activity android:name=".chapter4" />
+        <activity android:name=".chapter5" />
+        <activity android:name=".ch1lvl1" />
+        <activity android:name=".ch1lvl2" />
+        <activity android:name=".ch1lvl3" />
+        <activity android:name=".ch1a1" />
+        <activity android:name=".ch2lvl1" />
+        <activity android:name=".ch2lvl2" />
+        <activity android:name=".ch2lvl3" />
+        <activity android:name=".ch2a2" />
+        <activity android:name=".ch3lvl1" />
+        <activity android:name=".ch3lvl2" />
+        <activity android:name=".ch3lvl3" />
+        <activity android:name=".ch3a3" />
+        <activity android:name=".ch4lvl1" />
+        <activity android:name=".ch4lvl2" />
+        <activity android:name=".ch4lvl3" />
+        <activity android:name=".ch4a4" />
+        <activity android:name=".ch5lvl1" />
+        <activity android:name=".ch5lvl2" />
+        <activity android:name=".ch5lvl3" />
+        <activity android:name=".ch5a5"></activity>
+    </application>
+
+</manifest>

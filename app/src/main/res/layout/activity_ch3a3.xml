@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ch3a3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.maitrik.champad.ch3a3">
+    <ImageView
+        android:src="@drawable/ch3a3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:id="@+id/imageView"
+        />
+    <Button
+        android:text="GO TO ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+
+        android:id="@+id/next4" />
+
+    <Button
+        android:text="Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/check3" />
+
+    <TextView
+        android:text=""
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/next4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="148dp"
+        android:id="@+id/textView9" />
+
+    <TextView
+        android:text=""
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/editText7"
+        android:layout_toEndOf="@+id/textView9"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/textView10" />
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_marginTop="133dp"
+        android:id="@+id/editText7"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView10" />
+</RelativeLayout>
